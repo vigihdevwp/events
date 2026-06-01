@@ -34,12 +34,6 @@
         "test": "phpunit",
         "dev": "php -S localhost:2092 local-dev/index.php"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://satiswp.id"
-        }
-    ],
     "require": {
         "php": "^8.1",
         "symfony/serializer": "^6.4"
