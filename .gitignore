@@ -1,17 +1,15 @@
 # Composer
-/vendor
+vendor
 composer.lock
 .vscode
 .amazonq
 .DS_Store
 .phpunit.result.cache
-/.phpunit.cache
-/coverage
-dev.php
+.phpunit.cache
 GEMINI.md
-/scripts
-/config
-# /tests
+scripts
+tests
+local-dev
 node_modules
 package-lock.json
 package.json
