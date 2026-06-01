@@ -6,7 +6,7 @@ namespace VigihdevWP\Events;
 
 use VigihdevWP\Events\Dtos\HookMappingDto;
 
-class EventPostDispatcher
+final class EventPostDispatcher
 {
     private array $listeners = [];
 
