@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace VigihdevWP\Events;
 
+use VigihdevWP\Events\Contracs\EventPostDispatcherInterface;
 use VigihdevWP\Events\Dtos\HookMappingDto;
 
-final class EventPostDispatcher
+final class EventPostDispatcher implements EventPostDispatcherInterface
 {
     private array $listeners = [];
 
